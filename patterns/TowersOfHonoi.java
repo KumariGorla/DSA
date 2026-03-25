@@ -10,6 +10,7 @@ public class TowersOfHonoi {
     }public static void main(String[] args) {
         int n = 3;
         TowersHonio(n,"S","H","D");
-        System.out.println("Total moves:"+(int)(Math.pow(2, n)-1));
+        System.out.println("Total moves are hapended");
+        System.out.println((int)Math.pow(2, n)-1);
     }
 }
