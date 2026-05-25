@@ -6,9 +6,10 @@ public class deletenode {
         while(temp.next!=null){
             System.out.print(temp.data);
             temp = temp.next;
-            if(temp!= null){
+            if(temp.next != null){
                 System.out.print("->");
             }
+
         }
         
         temp.next = null;
@@ -25,8 +26,8 @@ public class deletenode {
         n1.next = n2;
         n2.next = n3;
         n3.next = n4;
-        //Node head = n1;
-        delete(n1.next);
+        Node head = n1;
+        delete(head);
     }
     
 }
